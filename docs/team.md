@@ -7,10 +7,10 @@ title:  Team
 
 
 ## USER 1
-***UCI Net ID***: mbhatta1
+***Medha Bhattacharya***: mbhatta1
 
 ## USER 2
-***UCI Net ID***: catherhf
+***Catherine Fajardo***: catherhf
 
 ## USER 3
-***UCI Net ID***: abigalel
+***Abigail Liao***: abigalel
