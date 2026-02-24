@@ -21,23 +21,6 @@ Key goals:
 ![Training screenshot](screenshots.png)
 
 
----
-
-## Approach
-
-We train an agent using **Proximal Policy Optimization (PPO)** with a convolutional neural network policy.
-
-
----
-
-## Results
-
----
-
-## Resources
-
----
-
 
 Source code: https://github.com/medhab123/NeuroScan_AI
 
