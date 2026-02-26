@@ -27,6 +27,8 @@ Qualitative requirements are defined in stages. At a basic level, the agent shou
 
 ## Remaining Goals and Challenges
 ---
+Our current prototype demonstrates partial progress but remains limited compared to our final goals. The agent can survive for a while, but it does not yet clear lines efficiently or demonstrate consistent board management. One of our main goals for the rest of the quarter is to improve PPO so that its gameplay looks more structured and effective. We plan to explore optimization strategies such as reward adjustments, environment preprocessing, and hyperparameter tuning. 
+
 
 ## Resources Used
 ---
