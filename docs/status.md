@@ -5,7 +5,7 @@ title: Status
 
 ## Project Summary
 ---
-Our project trains a reinforcement learning agent to play Atari Tetris using the Gymnasium/ALE environment and the PPO algorithm from Stable Baselines3. The agent observes the game screen and learns through trial and error which actions (move, rotate, drop) lead to higher in‑game scores and longer survival. Our overall goal is to build a reliable end‑to‑end training pipeline and then optimize the agent’s performance using different training and environment strategies, such as adjusting how the environment is wrapped, how many steps we train for, and how we structure the learning process. By systematically trying these strategies and analyzing learning curves and gameplay videos, we aim to better understand what makes reinforcement learning agents succeed or fail on a challenging, classic game like Tetris.
+Our project trains two different reinforcement learning agents to play the classic Atari Tetris. One uses the Gymnasium/ALE environment and a CNN with the PPO algorithm from Stable Baselines3, while the other uses the PyGames environment with a DQN. The agent observes the game screen as a series of images and learns through trial and error which actions (move, rotate, drop) lead to higher in‑game scores and longer survival. Our goal is to optimize each agent’s performance and have them develop strategies on par with expert Tetris play. We will do this by adjusting the training and environment parameters, such as enhancing the environment with preprocessing wrappers, how many steps we train for, and how we structure the learning process. 
 
 ## Approach
 ---
