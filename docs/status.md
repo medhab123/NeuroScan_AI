@@ -15,6 +15,7 @@ In practice, we treat the original Tetris agent as a reference model and then ru
 
 ### Evaluation
 ---
+### Quantitative
 When evaluating the agent, our initial requirements are for it to be on par with an average human player; that is, being able to achieve a reasonably good score and last for a few minutes without dying. The typical beginner player is able to score anywhere from 30,000 to 50,000 points, while a decent or somewhat regular player will score in the range of 100,000 - 300,000 points. With regards to the environment, this would be about 30-40 points for a “beginner” and 100-300 points for a “decent” player.
 
 The next set of goalposts for the agent is achieving high level gameplay, though not necessarily equivalent to expert play. This involves achieving a score of at least 500,000 - 700,000 points, or about 500-700 points for the agent.
