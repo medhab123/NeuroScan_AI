@@ -27,8 +27,9 @@ Qualitative requirements are defined in stages. At a basic level, the agent shou
 
 ## Remaining Goals and Challenges
 ---
-Our current prototype demonstrates partial progress but remains limited compared to our final goals. The agent can survive for a while, but it does not yet clear lines efficiently or demonstrate consistent board management. One of our main goals for the rest of the quarter is to improve PPO so that its gameplay looks more structured and effective. We plan to explore optimization strategies such as reward adjustments, environment preprocessing, and hyperparameter tuning. 
+Our current prototype demonstrates partial progress but remains limited compared to our final goals. The CNN-based PPO agent can survive for a reasonable amount of time, yet it does not consistently clear lines or demonstrate strong board management. Similarly, while the DQN agent is capable of clearing a large number of lines in some runs, its performance is highly unstable across training. One of our main goals for the remainder of the quarter is to improve the effectiveness and consistency of both methods. We plan to explore reward design, environment preprocessing, and systematic hyperparameter tuning to produce more structured gameplay. In addition, we aim to conduct more thorough evaluation, including multiple training runs, direct comparisons between PPO and DQN, and analysis of qualitative behaviors such as board height control and hole formation.
 
+One challenge we are currently facing is hyperparameter tuning. Most references only suggest value ranges, which makes it hard to decide what settings are actually appropriate for our environment. This becomes even more difficult because our model is unstable — for example, the agent might clear hundreds of lines at one point but perform much worse later, making it hard to tell whether a change truly improves the model.
 
 ## Resources Used
 ---
